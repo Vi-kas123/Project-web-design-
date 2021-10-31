@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1" >
+	<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<title>Virat Sport</title>
+	<style type="text/css">
+	.navbar{
+    background-color: #1192d8;
+  }
+  .nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+  .navbar-brand img{
+    width: 200px;
+  }
+  @media(max-width: 600px){
+        .navbar-brand img{
+                   width: 100px;
+               }
+  }
+  .nav-link:hover{
+      background-color: white;
+      border-radius: 20px;
+  }
+  .navbar-nav li{
+       padding: 0 10px;
+  }
+  .dropdown-item:hover{
+       background-color: black;
+       color: white;
+       border-radius: 10px;
+
+  }
+  .dropdown-item{
+    font-weight: bold;
+    color: #1192d8;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+  .carousel-item img{
+        width:100%; 
+        height: 550px;
+  }
+  @media(max-width: 600px){
+       .carousel-item img{
+        width:100%; 
+        height: 350px;
+  }
+  }
+  .footer{
+    background-color: #1192d8;
+    padding-top: 20px;
+  }
+  .footer ul li a{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+     }
+     .footer ul li{
+        list-style: none;
+     }
+     .footer ul li a:hover{
+              color: darkblue;
+     }
+      .icon{
+          font-size:40px;
+          color: white; 
+          margin-left: 15px;
+      }
+      .icon:hover{
+          background-color: black;
+      }
+	</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <a href="" class="navbar-brand">
+      <img src="https://viratsports.in/wp-content/uploads/2020/07/virat-logo-1-01.png" class="web-logo">
+      <img src="image/sports-logo-png-transparent.png"  class="web-logo">
+    </a>
+    
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#pn">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id=pn>
+    <ul class="navbar-nav ms-auto">
+      <li><a href="home.html" class="nav-link active">Home</a></li>
+      <li><a href="about.html" class="nav-link active">Create Account</a></li>
+      <li><a href="" class="nav-link active">About</a></li>
+      <li><a href="" class="nav-link active">Brands</a></li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sports
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Cricket</a></li>
+            <li><a class="dropdown-item" href="#">Badminton</a></li>
+            <li><a class="dropdown-item" href="#">Tennis</a></li>
+            <li><a class="dropdown-item" href="#">Football</a></li>
+            <li><a class="dropdown-item" href="#">Hockey</a></li>
+          </ul>
+        </li>
+
+      <!---modal button-->
+      <button type="button" class="btn btn-outline-dark btn-lg" data-bs-toggle="modal" data-bs-target="#aa" style="font-weight: bold;">login</button>
+      <!--model button end--->
+    </ul> 
+  </div><!--collapse end-->
+  </div><!--container-fluid-->
+</nav><!--nav end-->
+<br>
+<br>
+<br>
+<div class="container-fluid">
+     <div class="row">
+           <div class="col-md-12">
+               <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                <div class="carousel-indicators">
+    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1" ></button>
+    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2" ></button>
+    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="3" ></button>
+    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="4" ></button>
+  </div>
+                  <div class="carousel-inner"> 
+                      <div class="carousel-item active "data-bs-interval="4000">
+                          <img src="https://cdn11.bigcommerce.com/s-3954e/images/stencil/original/carousel/634/mrfbatsbanner__99642.jpg?c=2" alt=""class="d-block w-100">
+
+                      </div>
+                      <div class="carousel-item">
+                          <img src="https://bgsfirm.com/wp-content/uploads/2018/04/TennisRacket-BGSfirm-Blog.jpg" alt=""class="d-block w-100">
+                          
+                      </div>
+                      <div class="carousel-item">
+                          <img src="https://notsostephanian.com/wp-content/uploads/2020/09/NSS-Webiste.jpg" alt=""class="d-block w-100">
+                          
+                      </div>
+                      <div class="carousel-item">
+                          <img src="https://blog.playo.co/wp-content/uploads/2019/04/YONEX-rackets-blogcover.png" alt=""class="d-block w-100">
+                          
+                      </div>
+                      <div class="carousel-item">
+                          <img src="https://contents.mediadecathlon.com/p2033221/k$64e57f123995300efe7d8669610ff74c/football-ball-f500-size-5-white.jpg?&f=x" alt=""class="d-block w-100">
+                          
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+               </div>
+           </div>
+     </div>
+</div>
+
+<br><br><br>
+<br><br><br>
+<div class="container-fluid footer">
+         <div class="row"> 
+            <div class="col-md-4">
+          <ul>
+             <li style="font-weight: bold;font-size: 20px;">GET TO KNOW US</li>
+             <li><a href="">CONTACT US</a></li>
+             <li><a href="">OUR STORIES</a></li>
+             <li><a href="">FEEDBACK</a></li>
+             <li><a href="">ABOUT US</a></li>
+             <li><a href="">PRIVACY POLICY & TERMS AND CONDITION</a></li>
+         </ul>
+       </div>
+       <div class="col-md-4">
+         <ul>
+             <li style="font-weight: bold;font-size: 20px;">HERE TO HELP</li>
+             <li><a href="">REGISTER & LOGIN</a></li>
+             <li><a href="">DELIVERY & CHARGES</a></li>
+             <li><a href="">RETURN POLICY</a></li>
+             <li><a href="">FAQ's</a></li>
+             <li><a href="">PAYMENTS OPTIONS</a></li>
+         </ul>
+       </div>
+       <div class="col-md-4">
+         <ul>
+             <p style="font-weight: bold;font-size: 20px;">FOLLOW US</p>
+             <a href=""><i class="fab fa-facebook-f icon"></i></a>
+             <a href=""><i class="fab fa-instagram icon" ></i></a>
+             <a href=""><i class="fab fa-twitter icon" ></i></a>
+             <a href=""><i class="fab fa-linkedin icon"></i></a>
+          </ul>
+       </div>
+</div>
+</div>
+
+
+<div class="container-fluid " style="background: black;">
+  <div class="row" style="padding-top: 15px;">
+     <div class="text-center">
+       <p style="color: white;">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG COPYRIGHT © 2021 VIRAT SPORTS </p>
+     </div>
+  </div>
+</div>
+</body>
+</html>
