@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1" >
+	<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		  .navbar{
+    background-color: #1192d8;
+  }
+  .nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Lucida Console, Courier, monospace;
+  }
+  .navbar-brand img{
+    width: 200px;
+  }
+  .dropdown-item:hover{
+       background-color: black;
+       color: white;
+       border-radius: 10px;
+
+  }
+  .dropdown-item{
+    font-weight: bold;
+    color: #1192d8;
+    font-size: 18px;
+    font-family: Lucida Console, Courier, monospace;
+  }
+  .b{
+          width: 160px;
+          height: 45px;
+          border-radius: 10px;
+          background-color: black;
+          color: white;
+          font-weight: bold;
+          font-size: 23px;
+      }
+      .b:hover{
+          background-color: #1192d8;
+          color: white;
+      }
+  @media(max-width: 600px){
+        .navbar-brand img{
+                   width: 100px;
+               }
+    
+  }
+
+  .nav-link:hover{
+      background-color: white;
+      border-radius: 20px;
+      border: 1px solid black;
+  }
+  .navbar-nav li{
+       padding: 0 10px;
+  }
+  .dropdown-item:hover{
+       background-color: black;
+       color: white;
+       border-radius: 10px;
+       border: 2px solid #1192d8;
+
+  }
+  .dropdown-item{
+    font-weight: bold;
+    color: #1192d8;
+    font-size: 18px;
+    font-family: Lucida Console, Courier, monospace;
+  }
+  .footer{
+    background-color: #1192d8;
+    padding-top: 20px;
+  }
+  .footer ul li a{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+     }
+     .footer ul li{
+        list-style: none;
+     }
+     .footer ul li a:hover{
+              color: darkblue;
+     }
+     .icon{
+          font-size:40px;
+          color: white; 
+          margin-left: 15px;
+      }
+      .icon:hover{
+          background-color: black;
+      }
+      .c{
+        width: 90%;
+      }
+      .p{
+        width: 90%;
+        height: 180px;
+      }
+      .k{
+        width: 95%;
+      }
+      @media(max-width: 600px){
+        .c{
+          width: 70%;
+        }
+        .p{
+          width: 70%;
+          height: 160px;
+        }
+        .k{
+          width: 80%;
+          margin-left: 30px;
+        }
+      }
+      @media(max-width: 1200px){
+        .p{
+          width: 70%;
+          height: 130px;
+        }
+      }
+      .bt{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+      }
+      .bt:hover{
+        background-color: #1192d8;
+      }
+      @media(max-width: 600px){
+             .oo{
+               margin-top: -40px;
+             }
+      }
+	</style>
+</head>
+<body style="background-color: #2125291a;">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <a href="" class="navbar-brand">
+      <img src="https://viratsports.in/wp-content/uploads/2020/07/virat-logo-1-01.png" class="web-logo">
+      <img src="image/sports-logo-png-transparent.png"  class="web-logo">
+    </a>
+    
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#pn">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id=pn>
+    <ul class="navbar-nav ms-auto">
+      <li><a href="home.html" class="nav-link active">Home</a></li>
+      <li><a href="createaccount.html" class="nav-link active">Create Account</a></li>
+      <li><a href="AboutUs.html" class="nav-link active">About Us</a></li>
+      <li><a href="Brands.html" class="nav-link active">Brands</a></li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sports
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="cricket.html">Cricket</a></li>
+            <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+            <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+            <li><a class="dropdown-item" href="football.html">Football</a></li>
+            <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+          </ul>
+        </li>
+
+      <!---modal button-->
+      <button type="button" class="btn btn-outline-dark btn-lg" data-bs-toggle="modal" data-bs-target="#login" style="font-weight: bold;font-family: Lucida Console, Courier, monospace;">login</button>
+      <!--model button end--->
+    </ul> 
+  </div><!--collapse end-->
+  </div><!--container-fluid-->
+</nav><!--nav end-->
+<br><br><br>
+<br><br>
+<div class="container mb-3 oo">
+  <h1 style="font-family: Lucida Console, Courier, monospace;">FOOTBALL</h1>
+     <div class="row mb-3">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/FB-276.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Nivia Force Vision <br><del>₹ 9,500</del>&nbsp;&nbsp;₹ 9,000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">18% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/NKSC2359-106L.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Nike Mercurial Veer<br><del>₹8,500</del>&nbsp;&nbsp;₹7,900&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">15% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADCW4680.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas FIFA World Cup<br><del>₹ 9,900</del>&nbsp;&nbsp;₹ 8,950 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">14% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADAC2395L.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas Finale 15 <br><del>₹ 6,490</del>&nbsp;&nbsp;₹ 5,700 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">17% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+      <div class="row mb-3">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/NKSC3036-406.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Nike X Strike <br><del>₹ 4,890</del>&nbsp;&nbsp;₹ 3,999 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">5% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADBQ1364.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas Messi Q3<br><del>₹ 7,500</del>&nbsp;&nbsp;₹ 6,109 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">13% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADAP0492.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas Manchester United<br><del>₹ 5,590</del>&nbsp;&nbsp;₹ 4,790 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">12% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADAP0487.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas Real Madrid<br><del>₹ 6,000</del>&nbsp;&nbsp;₹ 5,500 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">6% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+      <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/NKFBSC2431644L.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Nike FCB Supporters<br><del>₹ 8,490</del>&nbsp;&nbsp;₹ 7,900 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">8% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/NKSC2754-639.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Nike Duro Strike<br><del>₹ 7,899</del>&nbsp;&nbsp;₹ 6,300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">30% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADCE8085.jpg" class="p" >
+                <p style="color: red;">OUT OF STOCK</p>
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas World Cup 2018 <br><del>₹ 5,000</del>&nbsp;&nbsp;₹ 3,300 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">8% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/NKSC3099-010.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+               <p style="margin-top: -10px">Nike X Duro Football<br><del>₹ 8,000</del>&nbsp;&nbsp;₹ 7,000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">20% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+      </div>
+</div>
+<div class="container mb-3">
+  <h1 style="font-family: Lucida Console, Courier, monospace;">FOOTBALL SHOES</h1>
+      <div class="row mb-3">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/NK749904-081L.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Nike HypervenomX Pro<br><del>₹ 3,500</del>&nbsp;&nbsp;₹ 2,990 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">18% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/MZP1GA166401L.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Mizuno Basara 103 MD<br><del>₹ 3,850</del>&nbsp;&nbsp;₹ 2,700&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">26% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/MZP1GA162329L.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Mizuno Monarcida MD<br><del>₹ 5,900</del>&nbsp;&nbsp;₹ 4,750 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">25% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADFSAQ3526.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Prince Championship<br><del>₹ 7,490</del>&nbsp;&nbsp;₹ 6,900 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">23% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+      <div class="row mb-3">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/MZP1GA162327L.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas Messi 16.4<br><del>₹ 5,990</del>&nbsp;&nbsp;₹ 5,199 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">18% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADFSBA8289.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas X 16.4 FXG<br><del>₹ 5,300</del>&nbsp;&nbsp;₹ 5,000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">8% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADFSS42137.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas ACE 16.4 FXG<br><del>₹ 4,090</del>&nbsp;&nbsp;₹ 3,600 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">28% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADFSS74698.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas Messi 15.4<br><del>₹ 6,000</del>&nbsp;&nbsp;₹ 5,500 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">20% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+</div>
+<div class="container mb-3">
+  <h1 style="font-family: Lucida Console, Courier, monospace;">FOOTBALL GLOVES</h1>
+      <div class="row mb-3">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADCW5611.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas X Lite Goalkeeper<br><del>₹ 1,500</del>&nbsp;&nbsp;₹ 1,050 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">15% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/ADM38623L.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Adidas F50 Training <br><del>₹1,500</del>&nbsp;&nbsp;₹1,100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">18% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/UHLFBGGFHL.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">UHLSport Fang Hand<br><del>₹ 1,900</del>&nbsp;&nbsp;₹ 1,250 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">24% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/UHLFBGGERSFTL.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">UHLSport Ergonomic Soft<br><del>₹ 1,490</del>&nbsp;&nbsp;₹ 1,000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">17% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+</div>
+<br>
+<div class="container-fluid footer">
+         <div class="row"> 
+            <div class="col-md-4">
+          <ul>
+             <li style="font-weight: bold;font-size: 20px;font-family: Lucida Console, Courier, monospace;">GET TO KNOW US</li>
+             <li><a href="">CONTACT US</a></li>
+             <li><a href="">OUR STORIES</a></li>
+             <li><a href="">FEEDBACK</a></li>
+             <li><a href="">ABOUT US</a></li>
+             <li><a href="">PRIVACY POLICY & TERMS AND CONDITION</a></li>
+         </ul>
+       </div>
+       <div class="col-md-4">
+         <ul>
+             <li style="font-weight: bold;font-size: 20px;font-family: Lucida Console, Courier, monospace;">HERE TO HELP</li>
+             <li><a href="">REGISTER & LOGIN</a></li>
+             <li><a href="">DELIVERY & CHARGES</a></li>
+             <li><a href="">RETURN POLICY</a></li>
+             <li><a href="">FAQ's</a></li>
+             <li><a href="">PAYMENTS OPTIONS</a></li>
+         </ul>
+       </div>
+       <div class="col-md-4">
+         <ul>
+             <p style="font-weight: bold;font-size: 20px;font-family: Lucida Console, Courier, monospace;">FOLLOW US</p>
+             <a href=""><i class="fab fa-facebook-f icon"></i></a>
+             <a href=""><i class="fab fa-instagram icon" ></i></a>
+             <a href=""><i class="fab fa-twitter icon" ></i></a>
+             <a href=""><i class="fab fa-linkedin icon"></i></a>
+          </ul>
+       </div>
+</div>
+<div class="container-fluid " style="background: black;">
+  <div class="row" style="padding-top: 15px;">
+     <div class="text-center">
+       <p style="color: white;font-family: Lucida Console, Courier, monospace;">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG COPYRIGHT © 2021 VIRAT SPORTS </p>
+     </div>
+  </div>
+</div>
+
+<!--Model of login start-->
+<div class="modal fade" id="login">
+  <div class="modal-dialog modal-lg" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" style="color: #1192d8;">Login</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+      </div><!---modal header end--->
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label style="color: #1192d8;" class="mb-1"><b style="font-size: 18px;">Username</b></label>
+            <input type="text" name="" placeholder="Enter User name : " class="form-control">
+          </div>
+          <div class="mb-3">
+            <label style="color: #1192d8;" class="mb-1"><b style="font-size: 18px;">Password</b></label>
+            <input type="password" name="" placeholder="Enter Password : " class="form-control">
+          </div>
+          <button type="submit" class="b">Submit</button>
+        </form>
+
+      </div><!-- modal body--->
+  </div><!---model dialog--- end=--->
+</div>
+<!--Model of login end-->
+</body>
+</html>

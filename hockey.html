@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1" >
+	<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		  .navbar{
+    background-color: #1192d8;
+  }
+  .nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Lucida Console, Courier, monospace;
+  }
+  .navbar-brand img{
+    width: 200px;
+  }
+  .dropdown-item:hover{
+       background-color: black;
+       color: white;
+       border-radius: 10px;
+
+  }
+  .dropdown-item{
+    font-weight: bold;
+    color: #1192d8;
+    font-size: 18px;
+    font-family: Lucida Console, Courier, monospace;
+  }
+  .b{
+          width: 160px;
+          height: 45px;
+          border-radius: 10px;
+          background-color: black;
+          color: white;
+          font-weight: bold;
+          font-size: 23px;
+      }
+      .b:hover{
+          background-color: #1192d8;
+          color: white;
+      }
+  @media(max-width: 600px){
+        .navbar-brand img{
+                   width: 100px;
+               }
+    
+  }
+
+  .nav-link:hover{
+      background-color: white;
+      border-radius: 20px;
+      border: 1px solid black;
+  }
+  .navbar-nav li{
+       padding: 0 10px;
+  }
+  .dropdown-item:hover{
+       background-color: black;
+       color: white;
+       border-radius: 10px;
+       border: 2px solid #1192d8;
+
+  }
+  .dropdown-item{
+    font-weight: bold;
+    color: #1192d8;
+    font-size: 18px;
+    font-family: Lucida Console, Courier, monospace;
+  }
+  .footer{
+    background-color: #1192d8;
+    padding-top: 20px;
+  }
+  .footer ul li a{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+     }
+     .footer ul li{
+        list-style: none;
+     }
+     .footer ul li a:hover{
+              color: darkblue;
+     }
+     .icon{
+          font-size:40px;
+          color: white; 
+          margin-left: 15px;
+      }
+      .icon:hover{
+          background-color: black;
+      }
+      .c{
+        width: 90%;
+        height: 200px;
+      }
+      .p{
+        width: 90%;
+        height: 160px;
+      }
+      .k{
+        width: 95%;
+      }
+      @media(max-width: 600px){
+        .c{
+          width: 70%;
+        }
+        .p{
+          width: 70%;
+          height: 160px;
+        }
+        .k{
+          width: 80%;
+          margin-left: 30px;
+        }
+      }
+      @media(max-width: 1200px){
+        .p{
+          width: 70%;
+          height: 130px;
+        }
+      }
+      .bt{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+      }
+      .bt:hover{
+        background-color: #1192d8;
+      }
+      @media(max-width: 600px){
+             .oo{
+               margin-top: -40px;
+             }
+      }
+	</style>
+</head>
+<body style="background-color: #2125291a;">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <a href="" class="navbar-brand">
+      <img src="https://viratsports.in/wp-content/uploads/2020/07/virat-logo-1-01.png" class="web-logo">
+      <img src="image/sports-logo-png-transparent.png"  class="web-logo">
+    </a>
+    
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#pn">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id=pn>
+    <ul class="navbar-nav ms-auto">
+      <li><a href="home.html" class="nav-link active">Home</a></li>
+      <li><a href="createaccount.html" class="nav-link active">Create Account</a></li>
+      <li><a href="AboutUs.html" class="nav-link active">About Us</a></li>
+      <li><a href="Brands.html" class="nav-link active">Brands</a></li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sports
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="cricket.html">Cricket</a></li>
+            <li><a class="dropdown-item" href="badminton.html">Badminton</a></li>
+            <li><a class="dropdown-item" href="tennis.html">Tennis</a></li>
+            <li><a class="dropdown-item" href="football.html">Football</a></li>
+            <li><a class="dropdown-item" href="hockey.html">Hockey</a></li>
+          </ul>
+        </li>
+
+      <!---modal button-->
+      <button type="button" class="btn btn-outline-dark btn-lg" data-bs-toggle="modal" data-bs-target="#login" style="font-weight: bold;font-family: Lucida Console, Courier, monospace;">login</button>
+      <!--model button end--->
+    </ul> 
+  </div><!--collapse end-->
+  </div><!--container-fluid-->
+</nav><!--nav end-->
+<br><br><br>
+<br><br>2
+<div class="container mb-3 oo">
+  <h1 style="font-family: Lucida Console, Courier, monospace;">HOCKEY BATS</h1>
+     <div class="row mb-3">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/jf5plzk0/stick/j/x/4/edge-wood-36-5-sunley-original-imaf3nfzsurz4rsh.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">SUNLEY Edge<br><del>₹ 800</del>&nbsp;&nbsp;₹ 600 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">12% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/kq9ta4w0/stick/v/m/a/magnum-wooden-painted-wood-37-alfa-original-imag4byk3jhdewhm.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">ALFA Magnum<br><del>₹1,200</del>&nbsp;&nbsp;₹800&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">15% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/kjg1jm80/stick/r/x/x/ax1-composite-composite-37-alfa-original-imafzysfyvyxw5h3.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">ALFA AX1 Composite<br><del>₹ 1,100</del>&nbsp;&nbsp;₹ 750 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">14% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/ktketu80/stick/2/y/n/y30-limited-edition-composite-hockey-stick-with-stick-bag-original-imag6vupfnvebyyw.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">ALFA Y30 Limited<br><del>₹ 1,490</del>&nbsp;&nbsp;₹ 900 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">17% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+      <div class="row mb-3">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/kufuikw0/stick/6/h/7/top-gun-practice-level-fibreglass-37-5-flash-original-imag7kcnccptkkg8.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">FLASH Top Gun<br><del>₹ 890</del>&nbsp;&nbsp;₹ 699 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">5% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/kkbh8cw0/stick/v/n/e/sx-1000-fibreglass-37-redlay-original-imafzzzv4dcfhadc.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Redlay SX-1000<br><del>₹ 500</del>&nbsp;&nbsp;₹ 459 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">13% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/ku79vgw0/stick/w/s/f/panjab-tiger-practice-field-hockey-stick-wood-36-expsports-original-imag7dufwurqctjy.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">EXPSPORTS<br><del>₹ 990</del>&nbsp;&nbsp;₹ 790 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">12% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/k6v2ykw0/stick/y/f/c/y30-limited-edition-composite-composite-37-alfa-original-imafp7n4tenfma7s.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">ALFA Y30 Limited<br><del>₹ 1,000</del>&nbsp;&nbsp;₹ 800 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">20% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+      <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/jxw5g280/stick/v/n/n/castle-composite-composite-38-alfa-original-imafgya7jmhzjnzg.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">ALFA CASTLE Composite<br><del>₹ 1,490</del>&nbsp;&nbsp;₹ 1,100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">8% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/kq9ta4w0/stick/q/f/k/hockey-stick-ninja-composite-37-flash-original-imag4bg3humbnvk2.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">FLASH Hockey<br><del>₹ 1,899</del>&nbsp;&nbsp;₹ 1,300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">30% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/kuk4u4w0/stick/u/i/f/india-flag-hocky-wood-35-ns-fly-soul-original-imag7nfy9fuudvzy.jpeg?q=70" class="p" >
+                <p style="color: red;">OUT OF STOCK</p>
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">NS FLY SOUL<br><del>₹ 1,000</del>&nbsp;&nbsp;₹ 600 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">8% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/kusph8w0/stick/k/t/x/andaaz-hockey-35-5-blue-fight-wood-wood-35-5-nimboliya-original-imag7u4g6t6atzbx.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+               <p style="margin-top: -10px">NIMBOLIYA Andaaz<br><del>₹ 900</del>&nbsp;&nbsp;₹ 700 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">20% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+      </div>
+</div>
+<div class="container mb-3">
+  <h1 style="font-family: Lucida Console, Courier, monospace;">HOCKEY BALLS</h1>
+      <div class="row mb-3">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/j7gi6q80/ball/6/y/b/100-200-7-hockey-ball-1-ab1021-hockey-ball-parbat-original-imaexzg7wuqzygyf.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Parbat hockey ball<br><del>₹ 500</del>&nbsp;&nbsp;₹ 400 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">20% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/j63x7rk0/ball/b/t/r/100-150-field-pack-3-7-3-hokeybalpack3-hockey-ball-parbat-original-imaewnj3dhppwzsw.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Parbat Field Pack<br><del>₹850</del>&nbsp;&nbsp;₹700&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">26% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/j687jbk0/ball/c/6/m/1-victo-2-5-6-1-golf-ball-forever-online-shopping-original-imaevsnthhss9nd3.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Victors Fos<br><del>₹ 900</del>&nbsp;&nbsp;₹ 750 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">25% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://rukminim1.flixcart.com/image/612/612/ke7ff680/ball/x/y/4/156-163-5-5-standard-dimple-hollow-6-na-hockey-ball-alfa-original-imafuxm3rqydzb8c.jpeg?q=70" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">ALFA DIMPLE<br><del>₹ 490</del>&nbsp;&nbsp;₹ 350 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">23% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+      <div class="row mb-3">
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/SlzrInternationalB_L1.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">Slazenger International<br><del>₹ 990</del>&nbsp;&nbsp;₹ 800 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">28% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://m.media-amazon.com/images/I/31Lkj87d2kL._AC_UL480_FMwebp_QL65_.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">SPRIDE Turf<br><del>₹ 700</del>&nbsp;&nbsp;₹ 500 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">12% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://m.media-amazon.com/images/I/91AR5D9P-DL._AC_UL480_FMwebp_QL65_.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">CE Rhino EVA Dimple<br><del>₹ 1,090</del>&nbsp;&nbsp;₹ 800 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">28% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-md-3 mb-3">
+              <div class="card k" style="border: 1px solid #1192d8;" ><div class="text-center">
+                <img src="https://m.media-amazon.com/images/I/61kgTvwJAGL._AC_UL480_FMwebp_QL65_.jpg" class="c">
+              </div>
+                <div class="card-body" style="background-color: #1192d81f;border: 1px solid #1192d8;">
+
+                <p style="margin-top: -10px">A&R Sports low<br><del>₹ 900</del>&nbsp;&nbsp;₹ 800 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">25% OFF</span></p>
+                <center><button class="bt">BUY</button></center>
+                </div>
+              </div>
+            </div>
+            </div>
+</div>
+<br>
+<div class="container-fluid footer">
+         <div class="row"> 
+            <div class="col-md-4">
+          <ul>
+             <li style="font-weight: bold;font-size: 20px;font-family: Lucida Console, Courier, monospace;">GET TO KNOW US</li>
+             <li><a href="">CONTACT US</a></li>
+             <li><a href="">OUR STORIES</a></li>
+             <li><a href="">FEEDBACK</a></li>
+             <li><a href="">ABOUT US</a></li>
+             <li><a href="">PRIVACY POLICY & TERMS AND CONDITION</a></li>
+         </ul>
+       </div>
+       <div class="col-md-4">
+         <ul>
+             <li style="font-weight: bold;font-size: 20px;font-family: Lucida Console, Courier, monospace;">HERE TO HELP</li>
+             <li><a href="">REGISTER & LOGIN</a></li>
+             <li><a href="">DELIVERY & CHARGES</a></li>
+             <li><a href="">RETURN POLICY</a></li>
+             <li><a href="">FAQ's</a></li>
+             <li><a href="">PAYMENTS OPTIONS</a></li>
+         </ul>
+       </div>
+       <div class="col-md-4">
+         <ul>
+             <p style="font-weight: bold;font-size: 20px;font-family: Lucida Console, Courier, monospace;">FOLLOW US</p>
+             <a href=""><i class="fab fa-facebook-f icon"></i></a>
+             <a href=""><i class="fab fa-instagram icon" ></i></a>
+             <a href=""><i class="fab fa-twitter icon" ></i></a>
+             <a href=""><i class="fab fa-linkedin icon"></i></a>
+          </ul>
+       </div>
+</div>
+<div class="container-fluid " style="background: black;">
+  <div class="row" style="padding-top: 15px;">
+     <div class="text-center">
+       <p style="color: white;font-family: Lucida Console, Courier, monospace;">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG COPYRIGHT © 2021 VIRAT SPORTS </p>
+     </div>
+  </div>
+</div>
+
+<!--Model of login start-->
+<div class="modal fade" id="login">
+  <div class="modal-dialog modal-lg" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" style="color: #1192d8;">Login</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+      </div><!---modal header end--->
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label style="color: #1192d8;" class="mb-1"><b style="font-size: 18px;">Username</b></label>
+            <input type="text" name="" placeholder="Enter User name : " class="form-control">
+          </div>
+          <div class="mb-3">
+            <label style="color: #1192d8;" class="mb-1"><b style="font-size: 18px;">Password</b></label>
+            <input type="password" name="" placeholder="Enter Password : " class="form-control">
+          </div>
+          <button type="submit" class="b">Submit</button>
+        </form>
+
+      </div><!-- modal body--->
+  </div><!---model dialog--- end=--->
+</div>
+<!--Model of login end-->
+</body>
+</html>
